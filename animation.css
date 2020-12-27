@@ -1,0 +1,190 @@
+*{box-sizing: border-box;}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.basic {
+    position: relative;
+    width: 900px;
+    height: 300px;
+    background-color: rgb(243, 116, 116);
+    border:3px solid black;
+    margin: auto;
+    
+}
+.one {
+    position: absolute;
+    width: 450px;
+    height: 150px;
+    background-color: rgb(233, 47, 47);
+    margin-top: o px;
+    margin-right: o px;
+}
+.two {
+    position: absolute;
+    width: 445px;
+    height: 150px;
+    background-color:  rgb(245,75,75);
+    margin-left: 450px;
+    margin-top: 0px;
+}
+.three {
+    position: absolute;
+    width: 450px;
+    height: 145px;
+    margin-top: 150px;
+    margin-right: 0px;
+    background-color: rgb(245,75,75);
+}
+.four {
+    position: absolute;
+    width: 445px;
+    height: 145px;
+    background-color: rgb(233,47,47);
+    margin-left: 450px;
+    margin-top: 150px;
+}
+#loading2 {
+    width: 0px;
+    height: 15px;
+    background-color: whitesmoke;
+    margin-top: 65px;
+    margin-left: 150px;
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: loadingTwo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes loadingTwo {
+    100% {width:120px;}
+}
+#loadingOne {
+    width: 0px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin-top: 55px;
+    margin-left: 150px;
+    animation-name: loadingOneTop;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes loadingOneTop {
+    100% {width:120px;}
+}
+#loadingThree {
+    width: 0px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    margin-left: 150px;
+    animation-name: loadingOneBottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes loadingOneBottom {
+    100% {width:120px;}
+}
+#loadingTwo {
+    width: 120px;
+    height: 15px;
+    background-color: rgb(245, 75, 75);
+    margin-top: 0px;
+    margin-left: 150px;
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#square {
+    width: 0px;
+    height: 30px;
+    border: 1px solid  rgb(233,47,47);
+    background-color: whitesmoke;
+    margin-top: 55px;
+    margin-left: 200px;
+    animation-name: square;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes square {
+    100% {width:30px;}
+}
+
+
+#circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: 0px;
+  margin-left: 231px;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 2s;
+  animation-direction: reverse;  
+  animation-iteration-count: infinite;
+}
+  @keyframes circle {
+     0%   {background-color:whitesmoke; right:0px; top:0px;}
+    25%  {background-color:whitesmoke; right:0px; top:-40px;}
+    50%  {background-color:whitesmoke; right:40px; top:-40px;}
+    75%  {background-color:whitesmoke; right:40px; top:0px;}
+    100% {background-color:whitesmoke; right:0px; top:0px;}
+  }
+
+  
+  #circle1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-top: 72px;
+    margin-left: 215px;
+  }
+  #circle2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgba(245, 245, 245, 0.575);
+    margin-left: 190px;
+    margin-top: -10px;
+    position: relative;
+    animation-name: circleCircle2;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+  }
+  @keyframes circleCircle2 {
+      
+    0%  {background-color:whitesmoke; left: 0px; top: 0px;}
+    25% {background-color: whitesmoke; left: 25px;top:-30px;}
+    50% {background-color: whitesmoke; left:50px; top:0px};
+   
+  }
+  
+  #circle3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgba(245, 245, 245, 0.575);
+    margin-left: 240px;
+    margin-top: -10px;
+    position: relative;
+    animation-name: circleCircle3;
+    animation-duration: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+     }
+    @keyframes circleCircle3 {
+        0%  {background-color:whitesmoke; left: 0px; top: 0px;}
+        25% {background-color: whitesmoke; left: -25px;top:30px;}
+        50% {background-color: whitesmoke; left:-50px; top:0px}; 
+    }
+  
+     
+   
+   
